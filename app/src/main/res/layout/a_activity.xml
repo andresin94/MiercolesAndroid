@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usuario.miercolesmaldito.A_activity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/A_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="44dp"
+        android:text="Soy la Actividad A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+
+        android:id="@+id/buttonVolver_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="67dp"
+        android:text="Volver"
+        app:layout_constraintEnd_toEndOf="@+id/A_textView"
+        app:layout_constraintTop_toBottomOf="@+id/A_textView" />
+
+    <Button
+        android:id="@+id/buttonCancelar_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="176dp"
+        android:layout_marginStart="112dp"
+        android:text="Cancelar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
